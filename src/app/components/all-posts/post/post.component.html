@@ -1,0 +1,5 @@
+<div>
+  {{post.id}} - {{post.title}}
+  <button [routerLink]="['post']" [queryParams]="{id: post.id}">body of post</button>
+  <hr>
+</div>

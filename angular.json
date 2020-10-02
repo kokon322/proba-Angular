@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "proba"
+    }
+  },
+  "defaultProject": "proba",
+  "cli": {
+    "analytics": "309e6b65-9582-4546-bf2b-bbf7f563892f"
+  }
 }

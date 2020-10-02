@@ -1,0 +1,5 @@
+<div>
+  {{comment.id}} - {{comment.name}}
+  <button [routerLink]="['comment']" [queryParams]="{id: comment.id}">body of comment</button>
+  <hr>
+</div>
